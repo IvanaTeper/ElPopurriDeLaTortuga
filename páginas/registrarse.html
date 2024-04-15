@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL POPURRÍ DE LA TORTUGA</title>
+    <link rel="shortcut icon" href="../assets/multimedia/imágenes/corazon+.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>EL POPURRÍ DE LA TORTUGA</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="">Actividades</a></li>
+                <li><a href="../páginas/Lugares.html">Lugares</a></li>
+                <li><a href="../páginas/registrarse.html">Registrate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <fieldset>
+            <legend>
+                <marquee behavior="" direction=""> Sing Up </marquee>
+            </legend>
+            <form action="" method="post">
+                <div>
+                    <label for="user"> User </label>
+                    <br>
+                    <input type="text" name="user" id="user" placeholder="ingrese su usuario">
+                </div>
+                <div>
+                    <label for="email"> Email </label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="email" required>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend> Seleccione un género </legend>
+                        <div>
+                            <input type="radio" id="masc" name="genero" value="masc" checked>
+                            <label for="masc"> Masculino </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="fem" name="genero" value="fem" checked>
+                            <label for="fem"> Femenino </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="otro" name="genero" value="otro" checked>
+                            <label for="otro"> Otro </label>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <div>
+                        <label for="appt"> Fecha de nacimiento </label>
+                        <input type="datetime-local" id="appt" name="appt" 
+                        min="1920-1-1" 
+                        max="2020-1-1" 
+                        value="2024-1-1" required>
+                        <small> Por defecto </small>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="appt"> Hora actual </label>
+                        <input type="time" id="appt" name="appt" min="06:00" max="23:00" value="12:00" required>
+                        <small> Por defecto </small>
+                    </div>
+                </div>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend> Log In </legend>
+            <form action="" method="get">
+                <div>
+                    <label for="email"> Email </label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="password"> Password </label>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="contraseña">
+                </div>
+                <hr>
+                <button type="submit"> Login my User </button>
+            </form>
+        </fieldset>
+    </main>
+</body>
+<footer>
+    <hr>
+    <marquee behavior="" direction="">No te quedes sin tu experiencia alegre</marquee>
+</footer>

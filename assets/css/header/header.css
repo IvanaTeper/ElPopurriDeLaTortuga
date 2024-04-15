@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+    border: 2px solid var(--color-base-brown);
+    border-radius: 10px;
+    background-color: var(--color-base-green);
+    color: var(--color-base-seco-1);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 200;
+  }
+header h1{
+  color: var(--color-base-brown);
+  font-weight: 100;
+}
+header nav li{
+  list-style: none;
+}
+header .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 24
+}
+p{
+  text-align: justify;
+}
